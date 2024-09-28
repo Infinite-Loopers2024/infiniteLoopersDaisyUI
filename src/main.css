@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 1px;
+  padding: 1px;
+}
+
+.flex {
+  gap: 5rem;
+  margin-top: 10px;
+  display: flex;
+  flex-shrink: inherit;
+}
+
+.box {
+  margin-top: 20px;
+  flex-grow: 1;
+  height: 240px;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+  border: 3px solid #37cdbe;
+  flex-wrap: wrap;
+}
