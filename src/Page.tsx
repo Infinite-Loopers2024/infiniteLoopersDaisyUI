@@ -4,7 +4,7 @@ function App() {
       <div className="navbar rounded-sm bg-primary text-primary-content justify-center">
         <p className="text-2xl font-extrabold ">Infinite Loopers</p>
       </div>
-      <body>
+      <body className="h-screen  ">
         <div className="flex">
           <section className="box avatar">
             <p className="mx-5">Love</p>
